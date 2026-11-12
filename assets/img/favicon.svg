@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Пиксельный кот</title>
+  <style>
+    .bg { fill: #16181c; }
+    .fg { fill: #faf9f6; }
+    .ac { fill: #8fb7c9; }
+    .ln { fill: none; stroke: #faf9f6; stroke-width: 4.6; stroke-linecap: round; stroke-linejoin: round; }
+    .cut { fill: #16181c; }
+    .nose { fill: #8fb7c9; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #8fb7c9; }
+      .fg { fill: #131519; }
+      .ac { fill: #131519; }
+      .ln { stroke: #131519; }
+      .cut { fill: #8fb7c9; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="10"/>
+  <rect class="fg" x="8" y="8" width="6" height="6"/>
+  <rect class="fg" x="50" y="8" width="6" height="6"/>
+  <rect class="fg" x="8" y="14" width="6" height="6"/>
+  <rect class="fg" x="14" y="14" width="6" height="6"/>
+  <rect class="fg" x="44" y="14" width="6" height="6"/>
+  <rect class="fg" x="50" y="14" width="6" height="6"/>
+  <rect class="fg" x="8" y="20" width="6" height="6"/>
+  <rect class="fg" x="14" y="20" width="6" height="6"/>
+  <rect class="fg" x="20" y="20" width="6" height="6"/>
+  <rect class="fg" x="26" y="20" width="6" height="6"/>
+  <rect class="fg" x="32" y="20" width="6" height="6"/>
+  <rect class="fg" x="38" y="20" width="6" height="6"/>
+  <rect class="fg" x="44" y="20" width="6" height="6"/>
+  <rect class="fg" x="50" y="20" width="6" height="6"/>
+  <rect class="fg" x="8" y="26" width="6" height="6"/>
+  <rect class="fg" x="14" y="26" width="6" height="6"/>
+  <rect class="cut" x="20" y="26" width="6" height="6"/>
+  <rect class="fg" x="26" y="26" width="6" height="6"/>
+  <rect class="fg" x="32" y="26" width="6" height="6"/>
+  <rect class="cut" x="38" y="26" width="6" height="6"/>
+  <rect class="fg" x="44" y="26" width="6" height="6"/>
+  <rect class="fg" x="50" y="26" width="6" height="6"/>
+  <rect class="fg" x="8" y="32" width="6" height="6"/>
+  <rect class="fg" x="14" y="32" width="6" height="6"/>
+  <rect class="fg" x="20" y="32" width="6" height="6"/>
+  <rect class="fg" x="26" y="32" width="6" height="6"/>
+  <rect class="fg" x="32" y="32" width="6" height="6"/>
+  <rect class="fg" x="38" y="32" width="6" height="6"/>
+  <rect class="fg" x="44" y="32" width="6" height="6"/>
+  <rect class="fg" x="50" y="32" width="6" height="6"/>
+  <rect class="fg" x="8" y="38" width="6" height="6"/>
+  <rect class="fg" x="14" y="38" width="6" height="6"/>
+  <rect class="fg" x="20" y="38" width="6" height="6"/>
+  <rect class="nose" x="26" y="38" width="6" height="6"/>
+  <rect class="nose" x="32" y="38" width="6" height="6"/>
+  <rect class="fg" x="38" y="38" width="6" height="6"/>
+  <rect class="fg" x="44" y="38" width="6" height="6"/>
+  <rect class="fg" x="50" y="38" width="6" height="6"/>
+  <rect class="fg" x="14" y="44" width="6" height="6"/>
+  <rect class="fg" x="20" y="44" width="6" height="6"/>
+  <rect class="fg" x="26" y="44" width="6" height="6"/>
+  <rect class="fg" x="32" y="44" width="6" height="6"/>
+  <rect class="fg" x="38" y="44" width="6" height="6"/>
+  <rect class="fg" x="44" y="44" width="6" height="6"/>
+  <rect class="fg" x="20" y="50" width="6" height="6"/>
+  <rect class="fg" x="26" y="50" width="6" height="6"/>
+  <rect class="fg" x="32" y="50" width="6" height="6"/>
+  <rect class="fg" x="38" y="50" width="6" height="6"/>
+</svg>

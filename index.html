@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Иван Иванов — frontend-разработчик</title>
+  <meta name="description" content="Портфолио frontend-разработчика: проекты, опыт и контакты.">
+  <meta name="theme-color" content="#2b4f63">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Иван Иванов — frontend-разработчик">
+  <meta property="og:description" content="Портфолио frontend-разработчика: проекты, опыт и контакты.">
+  <meta property="og:image" content="assets/img/og-cover.svg">
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <!-- Bootstrap подключён локально: сайт работает без интернета -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    // Тема применяется до первой отрисовки, чтобы не было вспышки светлого фона
+    try {
+      var saved = localStorage.getItem("portfolio-theme");
+      if (saved) document.documentElement.setAttribute("data-bs-theme", saved);
+      else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.setAttribute("data-bs-theme", "dark");
+      }
+    } catch (e) {}
+  </script>
+  <script src="//code.jivosite.com/widget/hraFmaSSvG" async></script>
+</head>
+<body data-page="home">
+
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <div id="site-navbar"></div>
+
+  <main id="main">
+    <div id="hero-root"></div>
+    <div id="about-short-root"></div>
+    <div id="featured-projects-root"></div>
+    <div id="home-cta-root"></div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
